@@ -29,8 +29,17 @@
 
 <img src="https://github.com/kartikajls/Analisis-Sentimen/assets/98092595/8bd89f80-577a-4bb1-a9fd-f36031cb38ce"></img>
 
-<p align='justify'>Bisa dilihat dari gambar diatas. Setelah pemilu 2024 berakhir, komentar masyarakat di aplikasi twitter atau X masih tergolong positif. Hasil menunjukan komentar positif sebesar 82, netral 73, dan negatif 34. Hal ini mungkin terjadi karena masih adanya kepercayaan masyarakat pada calon presiden Ganjar Pranowo dengan melihat rekam jejak beliau yang pernah menjadi Gubernur Jawa Tengah</p>
-### Visualisasi
-<p align='justify'>Setelah menganalisis dengan menggunakan library TextBlob, data yang dianalisis dapat divisualkan menjadi gambar seperti ini</p>
+<p align='justify'>Bisa dilihat dari gambar diatas. Setelah pemilu 2024 berakhir, komentar masyarakat di aplikasi twitter atau X masih tergolong positif. Hasil menunjukan komentar positif sebesar 82, netral 73, dan negatif 34. Hal ini mungkin terjadi karena masih adanya kepercayaan masyarakat pada calon presiden Ganjar Pranowo dengan melihat rekam jejak beliau yang pernah menjadi Gubernur Jawa Tengah.</p>
+
+<p align='justify'>Setelah menganalisis dengan menggunakan library TextBlob, data yang dianalisis dapat divisualkan menjadi gambar seperti ini.</p>
 
 <img src="https://github.com/kartikajls/Analisis-Sentimen/assets/98092595/694ca85b-d373-4048-badb-b91feb594799"></img>
+
+### Analisis Sentimen
+<p align='justify'>Jika kita sudah melihat jumlah komentar positif, netral, dan negatif dengan menggunakan tools TextBlob. Sekarang dengan menggunakan metode Naive Bayes, akan menghasilkan komentar positif, netral, dan negatif dengan tingkat akurasi sebesar 0.75 atau 75 persen. Metode Naive Bayes merupakan metode pengklasifikasian berdasarkan probabilitas sederhana dan dirancang agar dapat dipergunakan dengan asumsi antar variabel penjelas saling bebas (independen). Pada algoritma ini pembelajaran lebih ditekankan pada pengestimasian probabilitas. Keuntungan algoritma naive bayes adalah tingkat nilai error yang didapat lebih rendah ketika dataset berjumlah besar, selain itu akurasi naive bayes dan kecepatannya lebih tinggi pada saat diaplikasikan ke dalam dataset yang jumlahnya lebih besar.</p>
+
+<p align='justify'>Sehingga setelah dilakukan proses analisis dengan menggunakan metode Naive Bayes, hasil yang didapat cukup berbeda dengan menggunakan tools TextBlob. Hal ini dikarenakan metode yang digunakan Naive Bayes memiliki tingkat akurasi 0.75 atau 75 persen, sehinggal hasil yang didapat seperti berikut.</p>
+
+<img src="https://github.com/kartikajls/Analisis-Sentimen/assets/98092595/4028e431-c71a-46c7-8fbb-889bc65d53cd"></img>
+
+<img src="https://github.com/kartikajls/Analisis-Sentimen/assets/98092595/6d6a472c-8110-48e2-ad57-c18db3c0d586"></img>
